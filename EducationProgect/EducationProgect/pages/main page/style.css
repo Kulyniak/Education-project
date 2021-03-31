@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.container{
+    max-width: 1500px;
+    height: 100%;
+    margin: auto;
+}
+
+
+header{
+    display: flex;
+    width: 100%;
+    max-width: inherit;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 80px;
+    justify-content:space-between;
+    background-color: #fff;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    width: 100px;
+    height: 100%;
+    margin-right: 20px;
+}
+.logo-icon{
+    width: 95px;
+}
+.menu ul{
+    display: flex;
+    height: 100%;
+}
+nav{
+    height: 100%;
+}
+.menu ul li{
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding-left: 25px;
+    padding-right: 25px;
+    font-size: 15px;
+}
+.menu ul li:hover{
+    border-top: 5px solid #1a1a1a;
+    cursor: pointer;
+}
+.dropdown{
+    overflow: hidden;
+}
+.dropdown::after{
+    content: '˅';
+    margin-left: 5px;
+    margin-top: 1px;
+    color: #6b6b6b;
+}
+.dropdown-content{
+    display: none;
+    top: 80px;
+    margin-left: -25px;
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: #fff;
+}
+.lang-li{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.dropdown-content a{
+    text-decoration: none;
+    color: #000;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.dropdown-content a:hover{
+    border-top: 4px solid #1a1a1a;
+}
+.dropdown:hover .dropdown-content{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+}
+input[type="submit"]{
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: #fff;
+}
+#header-button{
+    align-self: center;
+    margin-left: auto;
+    border: 1px solid #1a1a1a;
+    color: #1a1a1a;
+}
+#header-button:hover{
+    transition: .3s linear;
+    background-color: #1a1a1a;
+    color: #fff;
+    cursor: pointer;
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.first-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 500px;
+}
+.first-section .block{
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+    height: 85%;
+    background-color: #1a1a1a;
+}
+
+.first-section .block .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 50%;
+}
+
+.block-tittle{
+    margin-top: 75px;
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.big-title{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.first-section .block .top .block-tittle{
+    text-align: center;
+}
+
+#start-button{
+    width: 175px;
+    height: 50px;
+    color: #1a1a1a;
+    font-size: 18px;
+    margin-top: 25px;
+    font-weight: 500;
+}
+#start-button:hover{
+    transition: .3s linear;
+    background-color: #a5a5a5;
+    cursor: pointer;
+}
+
+
+
+.second-section{
+    display: flex;
+    flex-direction: column;
+    padding-left: 150px;
+    padding-right: 150px;
+    width: 100%;
+    height: 600px;
+    padding-top: 100px;
+    background-color: rgb(209, 209, 209);
+}
+
+.block-list{
+    margin-top: 35px;
+}
+
+ol{
+    list-style-position: inside;
+}
+ol li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.second-section .bottom-block{
+    margin-top: 30px;
+} 
+.second-section .bottom-block a{
+    font-size: 20px;
+    font-weight: 700;
+}
+.second-section .bottom-block a:last-child{
+    margin-left: 75px;
+}
+
+
+
+
+.third-section{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 600px;
+    padding-top: 100px;
+    background-color: #1a1a1a;
+}
+
+.left-text, .right-text{
+    color: #fff;
+    font-weight: 700;
+}
+
+.left-text{
+    font-size: 45px;
+}
+.right-text{
+    font-size: 20px;
+    line-height: 25px;
+}
+.third-section .bottom-link{
+    margin-top: 25px; 
+}
+.white-txt a{
+    color: #fff;
+    font-size: 25px;
+}
