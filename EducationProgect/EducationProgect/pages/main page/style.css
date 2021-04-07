@@ -238,3 +238,30 @@ ol li{
     color: #fff;
     font-size: 25px;
 }
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 100px
+}
+
+.footer-block:last-child{
+    width: 250px;
+}
+.icon-top{
+    margin-top: -40px;
+}
+.footer-block-title{
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.footer-block-content a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+.footer-block-content li{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
